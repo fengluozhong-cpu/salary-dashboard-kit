@@ -1,0 +1,8 @@
+# 收支看板系统依赖
+# 仅「从原始工资条 xls/xlsx 与账单 PDF 解析」时需要；
+# 若同事只填好 工资年度汇总.csv + bills_parsed.csv 再生成看板，则零第三方依赖。
+
+msoffcrypto-tool>=5.0      # 解密受密码保护的 xls/xlsx 工资条
+openpyxl>=3.1              # 读取 .xlsx
+xlrd>=2.0                  # 读取 .xls
+PyMuPDF>=1.23              # 可选：从 PDF 账单/发票提取文本；缺失时部分解析器降级

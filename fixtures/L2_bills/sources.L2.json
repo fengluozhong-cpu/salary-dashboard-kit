@@ -1,0 +1,53 @@
+{
+  "_comment": "L2 练习用：措辞与内置解析器完全不同，请照此改正则接入自己的账单。",
+  "sources": [
+    {
+      "name": "card_alpha",
+      "label": "示例银行甲",
+      "save_subdir": "bills/card_alpha",
+      "extensions": [
+        ".html",
+        ".pdf"
+      ],
+      "parser": {
+        "type": "generic",
+        "patterns": {
+          "amount": "本月账单合计[^0-9]{0,40}([0-9,]+\\.[0-9]{2})",
+          "min_payment": "最低还款[^0-9]{0,40}([0-9,]+\\.[0-9]{2})"
+        }
+      }
+    },
+    {
+      "name": "card_beta",
+      "label": "示例银行乙",
+      "save_subdir": "bills/card_beta",
+      "extensions": [
+        ".html",
+        ".pdf"
+      ],
+      "parser": {
+        "type": "generic",
+        "patterns": {
+          "amount": "应还总额[^0-9]{0,40}([0-9,]+\\.[0-9]{2})",
+          "min_payment": "最低还款额[^0-9]{0,40}([0-9,]+\\.[0-9]{2})"
+        }
+      }
+    },
+    {
+      "name": "utility_gamma",
+      "label": "示例能源",
+      "save_subdir": "bills/utility_gamma",
+      "extensions": [
+        ".html",
+        ".pdf"
+      ],
+      "parser": {
+        "type": "generic",
+        "patterns": {
+          "amount": "价税合计[^0-9]{0,30}([0-9,]+\\.[0-9]{2})",
+          "usage": "([0-9]+\\.?[0-9]*)\\s*kWh"
+        }
+      }
+    }
+  ]
+}

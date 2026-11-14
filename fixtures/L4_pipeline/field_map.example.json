@@ -1,0 +1,25 @@
+{
+  "_comment": "工资条模板不同时，把这段合并进 config.json 的 analysis.field_map 覆盖默认关键词。",
+  "gross": [
+    "本期工资",
+    "应发合计"
+  ],
+  "pension": [
+    "养老保险"
+  ],
+  "medical": [
+    "医疗保险"
+  ],
+  "unemployment": [
+    "失业保险"
+  ],
+  "housing": [
+    "住房公积金"
+  ],
+  "tax": [
+    "个人所得税"
+  ],
+  "net": [
+    "实发工资"
+  ]
+}

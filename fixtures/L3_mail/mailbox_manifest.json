@@ -1,0 +1,677 @@
+{
+  "_comment": "模拟邮箱邮件清单，全部虚构；simulate_fetch.py 依此把附件放进工作区，等价于离线 IMAP 下载。",
+  "messages": [
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-01",
+      "attachment": "工资条/2025-01.xlsx",
+      "target": "2025-01.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-02",
+      "attachment": "工资条/2025-02.xlsx",
+      "target": "2025-02.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-03",
+      "attachment": "工资条/2025-03.xlsx",
+      "target": "2025-03.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-04",
+      "attachment": "工资条/2025-04.xlsx",
+      "target": "2025-04.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-05",
+      "attachment": "工资条/2025-05.xlsx",
+      "target": "2025-05.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-06",
+      "attachment": "工资条/2025-06.xlsx",
+      "target": "2025-06.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-07",
+      "attachment": "工资条/2025-07.xlsx",
+      "target": "2025-07.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-08",
+      "attachment": "工资条/2025-08.xlsx",
+      "target": "2025-08.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-09",
+      "attachment": "工资条/2025-09.xlsx",
+      "target": "2025-09.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-10",
+      "attachment": "工资条/2025-10.xlsx",
+      "target": "2025-10.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-11",
+      "attachment": "工资条/2025-11.xlsx",
+      "target": "2025-11.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2025-12",
+      "attachment": "工资条/2025-12.xlsx",
+      "target": "2025-12.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-01",
+      "attachment": "工资条/2026-01.xlsx",
+      "target": "2026-01.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-02",
+      "attachment": "工资条/2026-02.xlsx",
+      "target": "2026-02.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-03",
+      "attachment": "工资条/2026-03.xlsx",
+      "target": "2026-03.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-04",
+      "attachment": "工资条/2026-04.xlsx",
+      "target": "2026-04.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-05",
+      "attachment": "工资条/2026-05.xlsx",
+      "target": "2026-05.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-06",
+      "attachment": "工资条/2026-06.xlsx",
+      "target": "2026-06.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-07",
+      "attachment": "工资条/2026-07.xlsx",
+      "target": "2026-07.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-08",
+      "attachment": "工资条/2026-08.xlsx",
+      "target": "2026-08.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-09",
+      "attachment": "工资条/2026-09.xlsx",
+      "target": "2026-09.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-10",
+      "attachment": "工资条/2026-10.xlsx",
+      "target": "2026-10.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-11",
+      "attachment": "工资条/2026-11.xlsx",
+      "target": "2026-11.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "hr-notice@example.com",
+      "subject": "示例工资条 2026-12",
+      "attachment": "工资条/2026-12.xlsx",
+      "target": "2026-12.xlsx"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-01",
+      "attachment": "bills/demo_card/2025-01.html",
+      "target": "bills/demo_card/2025-01.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-02",
+      "attachment": "bills/demo_card/2025-02.html",
+      "target": "bills/demo_card/2025-02.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-03",
+      "attachment": "bills/demo_card/2025-03.html",
+      "target": "bills/demo_card/2025-03.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-04",
+      "attachment": "bills/demo_card/2025-04.html",
+      "target": "bills/demo_card/2025-04.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-05",
+      "attachment": "bills/demo_card/2025-05.html",
+      "target": "bills/demo_card/2025-05.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-06",
+      "attachment": "bills/demo_card/2025-06.html",
+      "target": "bills/demo_card/2025-06.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-07",
+      "attachment": "bills/demo_card/2025-07.html",
+      "target": "bills/demo_card/2025-07.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-08",
+      "attachment": "bills/demo_card/2025-08.html",
+      "target": "bills/demo_card/2025-08.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-09",
+      "attachment": "bills/demo_card/2025-09.html",
+      "target": "bills/demo_card/2025-09.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-10",
+      "attachment": "bills/demo_card/2025-10.html",
+      "target": "bills/demo_card/2025-10.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-11",
+      "attachment": "bills/demo_card/2025-11.html",
+      "target": "bills/demo_card/2025-11.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2025-12",
+      "attachment": "bills/demo_card/2025-12.html",
+      "target": "bills/demo_card/2025-12.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-01",
+      "attachment": "bills/demo_card/2026-01.html",
+      "target": "bills/demo_card/2026-01.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-02",
+      "attachment": "bills/demo_card/2026-02.html",
+      "target": "bills/demo_card/2026-02.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-03",
+      "attachment": "bills/demo_card/2026-03.html",
+      "target": "bills/demo_card/2026-03.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-04",
+      "attachment": "bills/demo_card/2026-04.html",
+      "target": "bills/demo_card/2026-04.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-05",
+      "attachment": "bills/demo_card/2026-05.html",
+      "target": "bills/demo_card/2026-05.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-06",
+      "attachment": "bills/demo_card/2026-06.html",
+      "target": "bills/demo_card/2026-06.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-07",
+      "attachment": "bills/demo_card/2026-07.html",
+      "target": "bills/demo_card/2026-07.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-08",
+      "attachment": "bills/demo_card/2026-08.html",
+      "target": "bills/demo_card/2026-08.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-09",
+      "attachment": "bills/demo_card/2026-09.html",
+      "target": "bills/demo_card/2026-09.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-10",
+      "attachment": "bills/demo_card/2026-10.html",
+      "target": "bills/demo_card/2026-10.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-11",
+      "attachment": "bills/demo_card/2026-11.html",
+      "target": "bills/demo_card/2026-11.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card.example.org",
+      "subject": "示例信用卡 A 电子账单 2026-12",
+      "attachment": "bills/demo_card/2026-12.html",
+      "target": "bills/demo_card/2026-12.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-01",
+      "attachment": "bills/demo_card_b/2025-01.html",
+      "target": "bills/demo_card_b/2025-01.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-02",
+      "attachment": "bills/demo_card_b/2025-02.html",
+      "target": "bills/demo_card_b/2025-02.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-03",
+      "attachment": "bills/demo_card_b/2025-03.html",
+      "target": "bills/demo_card_b/2025-03.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-04",
+      "attachment": "bills/demo_card_b/2025-04.html",
+      "target": "bills/demo_card_b/2025-04.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-05",
+      "attachment": "bills/demo_card_b/2025-05.html",
+      "target": "bills/demo_card_b/2025-05.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-06",
+      "attachment": "bills/demo_card_b/2025-06.html",
+      "target": "bills/demo_card_b/2025-06.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-07",
+      "attachment": "bills/demo_card_b/2025-07.html",
+      "target": "bills/demo_card_b/2025-07.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-08",
+      "attachment": "bills/demo_card_b/2025-08.html",
+      "target": "bills/demo_card_b/2025-08.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-09",
+      "attachment": "bills/demo_card_b/2025-09.html",
+      "target": "bills/demo_card_b/2025-09.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-10",
+      "attachment": "bills/demo_card_b/2025-10.html",
+      "target": "bills/demo_card_b/2025-10.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-11",
+      "attachment": "bills/demo_card_b/2025-11.html",
+      "target": "bills/demo_card_b/2025-11.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2025-12",
+      "attachment": "bills/demo_card_b/2025-12.html",
+      "target": "bills/demo_card_b/2025-12.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-01",
+      "attachment": "bills/demo_card_b/2026-01.html",
+      "target": "bills/demo_card_b/2026-01.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-02",
+      "attachment": "bills/demo_card_b/2026-02.html",
+      "target": "bills/demo_card_b/2026-02.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-03",
+      "attachment": "bills/demo_card_b/2026-03.html",
+      "target": "bills/demo_card_b/2026-03.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-04",
+      "attachment": "bills/demo_card_b/2026-04.html",
+      "target": "bills/demo_card_b/2026-04.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-05",
+      "attachment": "bills/demo_card_b/2026-05.html",
+      "target": "bills/demo_card_b/2026-05.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-06",
+      "attachment": "bills/demo_card_b/2026-06.html",
+      "target": "bills/demo_card_b/2026-06.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-07",
+      "attachment": "bills/demo_card_b/2026-07.html",
+      "target": "bills/demo_card_b/2026-07.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-08",
+      "attachment": "bills/demo_card_b/2026-08.html",
+      "target": "bills/demo_card_b/2026-08.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-09",
+      "attachment": "bills/demo_card_b/2026-09.html",
+      "target": "bills/demo_card_b/2026-09.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-10",
+      "attachment": "bills/demo_card_b/2026-10.html",
+      "target": "bills/demo_card_b/2026-10.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-11",
+      "attachment": "bills/demo_card_b/2026-11.html",
+      "target": "bills/demo_card_b/2026-11.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_card_b.example.org",
+      "subject": "示例信用卡 B 电子账单 2026-12",
+      "attachment": "bills/demo_card_b/2026-12.html",
+      "target": "bills/demo_card_b/2026-12.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-01",
+      "attachment": "bills/demo_utility/2025-01.html",
+      "target": "bills/demo_utility/2025-01.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-02",
+      "attachment": "bills/demo_utility/2025-02.html",
+      "target": "bills/demo_utility/2025-02.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-03",
+      "attachment": "bills/demo_utility/2025-03.html",
+      "target": "bills/demo_utility/2025-03.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-04",
+      "attachment": "bills/demo_utility/2025-04.html",
+      "target": "bills/demo_utility/2025-04.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-05",
+      "attachment": "bills/demo_utility/2025-05.html",
+      "target": "bills/demo_utility/2025-05.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-06",
+      "attachment": "bills/demo_utility/2025-06.html",
+      "target": "bills/demo_utility/2025-06.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-07",
+      "attachment": "bills/demo_utility/2025-07.html",
+      "target": "bills/demo_utility/2025-07.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-08",
+      "attachment": "bills/demo_utility/2025-08.html",
+      "target": "bills/demo_utility/2025-08.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-09",
+      "attachment": "bills/demo_utility/2025-09.html",
+      "target": "bills/demo_utility/2025-09.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-10",
+      "attachment": "bills/demo_utility/2025-10.html",
+      "target": "bills/demo_utility/2025-10.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-11",
+      "attachment": "bills/demo_utility/2025-11.html",
+      "target": "bills/demo_utility/2025-11.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2025-12",
+      "attachment": "bills/demo_utility/2025-12.html",
+      "target": "bills/demo_utility/2025-12.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-01",
+      "attachment": "bills/demo_utility/2026-01.html",
+      "target": "bills/demo_utility/2026-01.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-02",
+      "attachment": "bills/demo_utility/2026-02.html",
+      "target": "bills/demo_utility/2026-02.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-03",
+      "attachment": "bills/demo_utility/2026-03.html",
+      "target": "bills/demo_utility/2026-03.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-04",
+      "attachment": "bills/demo_utility/2026-04.html",
+      "target": "bills/demo_utility/2026-04.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-05",
+      "attachment": "bills/demo_utility/2026-05.html",
+      "target": "bills/demo_utility/2026-05.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-06",
+      "attachment": "bills/demo_utility/2026-06.html",
+      "target": "bills/demo_utility/2026-06.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-07",
+      "attachment": "bills/demo_utility/2026-07.html",
+      "target": "bills/demo_utility/2026-07.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-08",
+      "attachment": "bills/demo_utility/2026-08.html",
+      "target": "bills/demo_utility/2026-08.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-09",
+      "attachment": "bills/demo_utility/2026-09.html",
+      "target": "bills/demo_utility/2026-09.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-10",
+      "attachment": "bills/demo_utility/2026-10.html",
+      "target": "bills/demo_utility/2026-10.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-11",
+      "attachment": "bills/demo_utility/2026-11.html",
+      "target": "bills/demo_utility/2026-11.html"
+    },
+    {
+      "folder": "INBOX",
+      "from": "statement@demo_utility.example.org",
+      "subject": "示例电费 电子账单 2026-12",
+      "attachment": "bills/demo_utility/2026-12.html",
+      "target": "bills/demo_utility/2026-12.html"
+    }
+  ]
+}

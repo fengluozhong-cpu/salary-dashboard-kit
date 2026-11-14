@@ -1,0 +1,35 @@
+{
+  "_comment": "接真实邮箱时复制为 config.json 并替换占位值；本包不含任何真实凭据。",
+  "email": "<your-email@example.com>",
+  "auth_code": "<app-password>",
+  "imap_server": "imap.example.com",
+  "imap_port": 993,
+  "save_dir": "workspace",
+  "state_file": "state.json",
+  "extensions": [
+    ".xls",
+    ".xlsx",
+    ".pdf"
+  ],
+  "analysis": {
+    "xls_password": "",
+    "field_map": {}
+  },
+  "sources": [
+    {
+      "name": "salary",
+      "label": "示例工资条",
+      "sender_keywords": [
+        "hr-notice"
+      ],
+      "subject_keywords": [
+        "工资条"
+      ],
+      "save_subdir": "",
+      "extensions": [
+        ".xls",
+        ".xlsx"
+      ]
+    }
+  ]
+}

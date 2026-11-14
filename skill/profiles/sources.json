@@ -1,0 +1,47 @@
+{
+  "_comment": "可分发模板。同事接入自己的账单时，只改本文件：复制一份来源、改 name/label/save_subdir、按自己账单的文字调整 patterns 正则即可，不需要改 Python。save_subdir 的最后一段必须与 data/bills/ 下的目录名一致。本文件不含任何真实账户、邮箱或金额。",
+  "_pattern_hint": "每个正则请用第 1 个捕获组包住要提取的值；amount 匹配到的字符串会去掉千分位逗号后转 float。留空的字段会写成空值，不会报错。",
+  "_builtin_hint": "若账单恰好与内置解析器格式一致，可写 {\"type\": \"builtin\", \"key\": \"cmb\"}；内置 key 为 cmb / cgb / citic / cib / electricity。其余格式一律用 generic + 正则。",
+  "sources": [
+    {
+      "name": "demo_card",
+      "label": "示例信用卡 A",
+      "save_subdir": "bills/demo_card",
+      "extensions": [".html", ".pdf"],
+      "parser": {
+        "type": "generic",
+        "patterns": {
+          "amount": "本期应还金额[^0-9]{0,40}([0-9,]+\\.[0-9]{2})",
+          "min_payment": "最低还款额[^0-9]{0,40}([0-9,]+\\.[0-9]{2})",
+          "cycle": "(账单周期[^\\s]{0,60})"
+        }
+      }
+    },
+    {
+      "name": "demo_card_b",
+      "label": "示例信用卡 B",
+      "save_subdir": "bills/demo_card_b",
+      "extensions": [".html", ".pdf"],
+      "parser": {
+        "type": "generic",
+        "patterns": {
+          "amount": "应还款总额[^0-9]{0,40}([0-9,]+\\.[0-9]{2})",
+          "min_payment": "最低还款[^0-9]{0,40}([0-9,]+\\.[0-9]{2})"
+        }
+      }
+    },
+    {
+      "name": "demo_utility",
+      "label": "示例电费",
+      "save_subdir": "bills/demo_utility",
+      "extensions": [".html", ".pdf"],
+      "parser": {
+        "type": "generic",
+        "patterns": {
+          "amount": "价税合计[^0-9]{0,30}([0-9,]+\\.[0-9]{2})",
+          "usage": "([0-9]+\\.?[0-9]*)\\s*kWh"
+        }
+      }
+    }
+  ]
+}

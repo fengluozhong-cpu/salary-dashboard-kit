@@ -1,0 +1,22 @@
+# 运行时产物（可随时用 run_all.py 重建）
+workspace/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+
+# 使用者自建的真实配置与凭据（绝不允许入库）
+config.json
+state.json
+.env
+
+# 真实数据文件；脱敏 fixtures 内的 xlsx 需保留
+*.xls
+*.xlsx
+*.pdf
+!fixtures/L3_mail/attachments/**/*.xlsx
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db

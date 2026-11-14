@@ -1,0 +1,41 @@
+{
+  "_comment": "脱敏配置模板：复制为 config.json 后按自己的情况修改。本文件与分发包不含任何真实凭据、邮箱或金额。save_dir 保持 data 即使用随包附带的 dummy 工作区。",
+  "email": "",
+  "auth_code": "",
+  "imap_server": "imap.example.com",
+  "imap_port": 993,
+  "save_dir": "data",
+  "state_file": "state.json",
+  "extensions": [".xls", ".xlsx", ".pdf"],
+  "analysis": {
+    "xls_password": "",
+    "field_map": {}
+  },
+  "sources": [
+    {
+      "name": "salary",
+      "label": "示例工资条",
+      "sender_keywords": ["payroll", "hr-notice"],
+      "subject_keywords": ["工资", "薪资"],
+      "save_subdir": "",
+      "extensions": [".xls", ".xlsx"]
+    },
+    {
+      "name": "demo_card",
+      "label": "示例信用卡 A",
+      "sender_keywords": ["example-bank", "statement"],
+      "subject_keywords": ["账单"],
+      "save_subdir": "bills/demo_card",
+      "extensions": [".html", ".pdf"]
+    },
+    {
+      "name": "demo_utility",
+      "label": "示例电费",
+      "sender_keywords": ["utility", "power"],
+      "subject_keywords": ["电费", "用电"],
+      "match_mode": "or",
+      "save_subdir": "bills/demo_utility",
+      "extensions": [".html", ".pdf"]
+    }
+  ]
+}
