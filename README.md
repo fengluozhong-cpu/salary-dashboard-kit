@@ -1,5 +1,7 @@
 # 收支看板 · 完整复刻包（replica-kit）
 
+> 在线仓库：https://github.com/fengluozhong-cpu/salary-dashboard-kit ｜ Release `v1.0.0` 提供完整目录 zip 与纯 Skill 包 zip。
+
 **仅依赖本目录，即可复刻 L0–L4 全部层级的看板。** 所有数据均为虚构脱敏样例，不含任何真实工资、账单、姓名、邮箱、凭据或本机路径。
 
 ## 🚫 隐私声明（先读）
